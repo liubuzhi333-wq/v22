@@ -1,0 +1,13 @@
+V21.1 GitHub upload notes
+
+1. Upload the visible project files/folders to the repository root.
+2. The repository root must contain:
+   - settings.gradle.kts
+   - build.gradle.kts
+   - gradle.properties
+   - app/
+3. app/build.gradle.kts must stay INSIDE the app folder. Do not move it to the repository root.
+4. If .github is hidden, create this file from GitHub's web UI:
+   .github/workflows/build-apk.yml
+   and paste BUILD_APK_WORKFLOW.yml into it.
+5. Run Actions -> Build APK -> Run workflow.
